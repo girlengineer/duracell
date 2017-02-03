@@ -1,0 +1,13 @@
+{
+	"defaultRepositoryUrl": "http://sd-4a6e-3e88.nam.nsroot.net:9010/assets/{name}-{version}.zip",
+	"dependencies": {
+		"angular2-nexus-uiux": {
+			"version": "3.0.6-RELEASE",
+			"repositoryUrl": "http://swdclinx2.nam.nsroot.net:8081/nexus/content/repositories/releases/com/citi/169073/ccp/rel/{name}/{version}/{name}-{version}.zip"
+		},
+		 "ddl": {
+                   "version": "1.0.2-SCRUM",
+                   "repositoryUrl": "http://sd-5e1d-64bd.nam.nsroot.net:8081/nexus/content/repositories/ansmodules/com/citi/144564/cbol/ag/uicomponent/1.0.2-SCRUM/uicomponent-1.0.2-SCRUM.zip"
+                }
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"content":"hello",
+	"offers": [
+		{
+			"id": 1,
+			"term":"5 years",
+			"rate":"3.4%"
+			
+		},
+		{
+			"id": 2,
+			"term":"2 years",
+			"rate":"4.5%"
+			
+		},
+		{
+			"id": 3,
+			"term":"1 years",
+			"rate":"5%"
+			
+		}
+	]
+	
+}

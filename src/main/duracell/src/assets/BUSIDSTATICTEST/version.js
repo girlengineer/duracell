@@ -1,0 +1,1 @@
+var vconfig = {"template.js":"S_kRDc9pZhYXR47faGHirg","en_US":{"static_test.sc":"xeXJZXJzl8NivdJB_0Ropg"},"mime.types":"KFAamR0I48If-Fg6uG3ypg"}

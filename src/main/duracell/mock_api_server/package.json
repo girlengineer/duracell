@@ -1,0 +1,12 @@
+{
+  "name": "mock_api_server",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "4.13.4",
+    "underscore": "1.8.3",
+    "JSONPath": "0.11.2",
+    "btoa": "1.1.2",
+    "body-parser": "^1.15.2",
+    "commander": "^2.9.0"
+  }
+}

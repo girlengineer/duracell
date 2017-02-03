@@ -1,0 +1,35 @@
+{
+    "mockDirectory": "./responses",
+    "quiet": false,
+    "port": "7878",
+    "latency": 200,
+
+    "allowedHeaders": ["Access-Control-Allow-Origin", "*"],
+    "allowedHeaders": ["Access-Control-Allow-Credentials", "true"],
+    "allowedHeaders": ["Content-Type", "Access-Control-Allow-Headers"],
+    "allowedHeaders": ["Access-Control-Allow-Methods", "POST, GET, PUT, DELETE, OPTIONS"],
+    "allowedHeaders": ["Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept,X-HTTP-Method-Override, Authorization, bizToken, publicClientId"],
+    
+    "webServices": {
+        "dummy": {
+            "mockFile": "dummy.json",
+            "verbs": ["post"]
+        },
+        "keepAlive": {
+            "mockFile": "keepAlive.json",
+            "verbs": ["get"]
+        },
+        "accounts": {
+            "mockFile": "accounts.json",
+            "verbs": ["get"]
+        },
+        "brandingConfig": {
+            "mockFile": "brandingConfig.json",
+            "verbs": ["get"]
+        },
+        "offers":{
+            "mockFile":"offers.json",
+            "verbs":["get"]
+        }
+    }
+}

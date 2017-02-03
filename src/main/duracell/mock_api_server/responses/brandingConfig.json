@@ -1,0 +1,463 @@
+{ 
+  "data":{
+	"header": {
+		"butler": {
+			"show": false,
+			"navigationItems": [
+				{
+					"title": "Open An Account",
+					"url": "",
+					"target": "_self"
+				},
+				{
+					"title": "Español",
+					"url": "",
+					"target": "_self"
+				}
+			]
+		},
+		"banner": {
+			"show": true,
+			"color": "blue",
+			"logo": {
+				"show": true,
+				"image": "https://online.citi.com/GFC/branding/responsivebranding/img/citilogo_branding_60x35.png"
+			},
+			"search": {
+				"show": true,
+				"action": "/",
+				"placeholder": "What can we help you with?"
+			}
+		},
+		"navigation": {
+			"show": true,
+			"navigationItems": [
+				{
+					"title": "Credit Cards",
+					"url": "/"
+				},
+				{
+					"title": "Banking",
+					"url": "/"
+				},
+				{
+					"title": "Lending",
+					"navigationItems": [
+						{
+							"title": "Personal Loans & Lines of Credit",
+							"url": "/"
+						},
+						{
+							"title": "Homeownership",
+							"url": "/"
+						}
+					]
+				},
+				{
+					"title": "Investing",
+					"navigationItems": [
+						{
+							"title": "Your Financial Goals",
+							"url": "/"
+						},
+						{
+							"title": "Investing with Citi",
+							"url": "/"
+						},
+						{
+							"title": "Insights and Tools",
+							"url": "/"
+						}
+					]
+				},
+				{
+					"title": "CitiGold\\<sup\\>®\\</sup\\>",
+					"url": "/"
+				}
+			],
+			"sign": {
+				"show": true,
+				"wording": "Sign On",
+				"url": "/"
+			}
+		},
+		"welcome": {
+			"show": true,
+			"name": {
+				"show": true,
+				"wording": "Welcome",
+				"name": "Bobby Bobberton"
+			},
+			"profileAndSettings": {
+				"show": true,
+				"wording": "Profile & Settings",
+				"url": "/"
+			},
+			"messages": {
+				"show": true,
+				"count": 12,
+				"wording": "Messages",
+				"title": "Your Messages",
+				"viewAllMessagesText": "View All",
+				"viewAllMessagesUrl": "/",
+				"sendMessageText": "Send A Message",
+				"sendMessageUrl": "/",
+				"topMessages": [
+					{
+						"title": "Possible Suspicious Activity On Banking Account 1985098-995",
+						"url": ""
+					},
+					{
+						"title": "New Financing Rates Available for Auto Loans With Qualified Credit",
+						"url": ""
+					},
+					{
+						"title": "Fraud Protection Services Signup - Please Verify Your Email Address",
+						"url": ""
+					}
+				]
+			},
+			"lastLogin": {
+				"show": true,
+				"wording": "Last Login:",
+				"dateTime": "November 18, 2016, 9:53 AM"
+			}
+		}
+	},
+	"footer": {
+		"butler": {
+			"show": true,
+			"logo": {
+				"show": true,
+				"url": "https://online.citi.com/CBOL/common/ddl/1.1.0/images/catalogue/citi-logo-footer.png"
+			},
+			"social": {
+				"show": true,
+				"facebook": {
+					"show": true,
+					"url": "https://www.facebook.com/citibank",
+					"header": "Important Information",
+					"copy": "You are leaving a Citigroup website and will be going to a website operated by Facebook. That site has a privacy policy and security that are different from that of the Citigroup website. Other than the materials posted by Citigroup on the facebook.com Citi pages, Citigroup and its affiliates are not responsible for the content on facebook.com."
+				},
+				"twitter": {
+					"show": true,
+					"url": "https://twitter.com/Citibank/",
+					"header": "Important Information",
+					"copy": "You are leaving a Citigroup website and will be going to a website operated by Twitter Inc. That site has a privacy policy and security that are different from that of the Citigroup website. Other than the Tweets posted by Citigroup, Citigroup and its affiliates are not responsible for the content on Twitter.com."
+				},
+				"youtube": {
+					"show": true,
+					"url": "https://www.youtube.com/citi",
+					"header": "Important Information",
+					"copy": "You are leaving a Citigroup website and will be going to a website operated by You Tube. That site has a privacy policy and security that are different from that of the Citigroup website. Other than the materials posted by Citigroup on the youtube.com/citi pages, Citigroup and its affiliates are not responsible for the content on youtube.com."
+				}
+			}
+		},
+		"navigation": {
+			"show": true,
+			"sections": [
+				{
+					"title": "Why Citi",
+					"links": [
+						{
+							"url": "",
+							"title": "Our Story"
+						},
+						{
+							"url": "",
+							"title": "Benefits and Services"
+						},
+						{
+							"url": "",
+							"title": "Rewards"
+						},
+						{
+							"url": "",
+							"title": "Citi Easy Deals&#8480;"
+						},
+						{
+							"url": "",
+							"title": "Citi<sup>&reg;</sup> Private Pass<sup>&reg;</sup>"
+						},
+						{
+							"url": "",
+							"title": "Special Offers"
+						}
+					]
+				},
+				{
+					"title": "Relationship Banking",
+					"links": [
+						{
+							"url": "",
+							"title": "Citi Priority"
+						},
+						{
+							"url": "",
+							"title": "Citigold<sup>&reg;</sup>"
+						},
+						{
+							"url": "",
+							"title": "Citi Private Bank"
+						},
+						{
+							"url": "",
+							"title": "Citi Global Banking"
+						}
+					]
+				},
+				{
+					"title": "Business Banking",
+					"links": [
+						{
+							"url": "",
+							"title": "Small Business Accounts"
+						},
+						{
+							"url": "",
+							"title": "Business Accounts"
+						},
+						{
+							"url": "",
+							"title": "Commercial Accounts"
+						}
+					]
+				},
+				{
+					"title": "Rates",
+					"links": [
+						{
+							"url": "",
+							"title": "Personal Banking"
+						},
+						{
+							"url": "",
+							"title": "Credit Cards"
+						},
+						{
+							"url": "",
+							"title": "Mortgage"
+						},
+						{
+							"url": "",
+							"title": "Home Equity"
+						},
+						{
+							"url": "",
+							"title": "Lending"
+						}
+					]
+				},
+				{
+					"title": "Help & Support",
+					"links": [
+						{
+							"url": "",
+							"title": "Contact Us"
+						},
+						{
+							"url": "",
+							"title": "Help & FAQs"
+						}
+					]
+				}
+			]
+		},
+		"locationFinder": {
+			"show": true,
+			"placeholder": "Enter Address",
+			"action": "/US/GCL/citilocator/flow.action"
+		},
+		"subNavigation": {
+			"show": true,
+			"copyright": {
+				"show": true,
+				"text": "&copy; 2016 Citigroup Inc"
+			},
+			"navigation": {
+				"show": true,
+				"links": [
+					{
+						"url": "",
+						"title": "Terms &amp; Conditions"
+					},
+					{
+						"url": "",
+						"title": "Privacy"
+					},
+					{
+						"url": "",
+						"title": "Security"
+					}
+				]
+			},
+			"countrySelector": {
+				"show": true,
+				"title": "Choose Your Country",
+				"text": "Get Citibank information on the countries we serve.",
+				"currentCountry": "United States",
+				"countries": [
+					{
+						"url": "https://www.argentina.citibank.com/ARGCB/JPS/portal/Index.do",
+						"title": "Argentina"
+					},
+					{
+						"url": "http://www.citibank.com.au/portal/citiau_home.htm",
+						"title": "Australia"
+					},
+					{
+						"url": "http://www.citi.com/bahrain/homepage/index.htm",
+						"title": "Bahrain"
+					},
+					{
+						"url": "https://www.citibank.com.br/BRGCB/JPS/portal/Index.do",
+						"title": "Brazil"
+					},
+					{
+						"url": "http://www.citibank.com.cn/homepage/cn/cn_homepage.htm",
+						"title": "China"
+					},
+					{
+						"url": "http://www.citibank.com.cn/homepage/en/cn_homepage.htm",
+						"title": "China - English"
+					},
+					{
+						"url": "https://www.citibank.com.co/COGCB/JPS/portal/Index.do",
+						"title": "Columbia"
+					},
+					{
+						"url": "http://www.citi.com.sv/",
+						"title": "El Salvador"
+					},
+					{
+						"url": "http://www.citi.com/citi/about/countrypresence/guatemala.html",
+						"title": "Guatemala"
+					},
+					{
+						"url": "http://www.citibank.com.hk/",
+						"title": "Hong Kong"
+					},
+					{
+						"url": "https://www.citibank.hu/gcb/Lakossagi_ugyfelek/hungary/home/index.htm",
+						"title": "Hungary - Hungarian"
+					},
+					{
+						"url": "https://www.citibank.hu/gcb/Lakossagi_ugyfelek/english/home/index.htm",
+						"title": "Hungary - English"
+					},
+					{
+						"url": "http://www.online.citibank.co.in/",
+						"title": "India Domestic"
+					},
+					{
+						"url": "http://www.online.citibank.co.in/citi-nri.htm",
+						"title": "India - Non-Resident Indian (NRI)"
+					},
+					{
+						"url": "https://www.citibank.co.id/portal/bahasa_home/index.htm",
+						"title": "Indonesia - Bahasa Indonesia"
+					},
+					{
+						"url": "http://www.citibank.co.id/",
+						"title": "Indoneisa - English"
+					},
+					{
+						"url": "http://www.citibank.co.kr/",
+						"title": "Korea - Korean"
+					},
+					{
+						"url": "http://www.citibank.co.kr/",
+						"title": "Korea - English"
+					},
+					{
+						"url": "http://www.citibank.com.my/",
+						"title": "Malaysia"
+					},
+					{
+						"url": "http://www.citi.com/citi/about/countrypresence/mexico.html",
+						"title": "Mexico"
+					},
+					{
+						"url": "http://www.citibank.com.ph/portal/citiph_home.htm",
+						"title": "Phillipines"
+					},
+					{
+						"url": "http://www.citibank.pl/poland/homepage/polish/index.htm",
+						"title": "Poland"
+					},
+					{
+						"url": "http://www.citi.com/domain/redirect/country/portugal/portug.htm",
+						"title": "Portugal"
+					},
+					{
+						"url": "http://www.citibank.ru/russia/main/rus/home.htm",
+						"title": "Russia - Russian"
+					},
+					{
+						"url": "http://www.citibank.ru/russia/main/eng/home.htm",
+						"title": "Russia - English"
+					},
+					{
+						"url": "http://www.citibank.com.sg/",
+						"title": "Singapore"
+					},
+					{
+						"url": "http://www.citibank.com.tw/portal/home_chinese/twcb_Home.htm",
+						"title": "Taiwan - Chinese"
+					},
+					{
+						"url": "http://www.citibank.com.tw/portal/home_english/twcb_Home.htm",
+						"title": "Taiwan - English"
+					},
+					{
+						"url": "http://www.citibank.co.th/",
+						"title": "Thailand"
+					},
+					{
+						"url": "http://www.citi.com/uae/homepage/index.htm",
+						"title": "United Arab Emirates"
+					},
+					{
+						"url": "http://www.citibank.co.uk/index.htm",
+						"title": "United Kingdom"
+					},
+					{
+						"url": "http://www.citi.com/domain/home.htm",
+						"title": "United States"
+					},
+					{
+						"url": "https://www.citibank.com.ve/VEGCB/JPS/portal/Index.do",
+						"title": "Venezuela"
+					},
+					{
+						"url": "http://www.citibank.com.vn/",
+						"title": "Vietnam - Vietnamese"
+					},
+					{
+						"url": "http://www.citibank.com.vn/portal/vietnam_home.htm",
+						"title": "Vietnam - English"
+					}
+				]
+			},
+			"showFeedback": true
+		},
+		"disclaimer": {
+			"show": true,
+			"text": "<p>Citibank.com provides information about and access to accounts and financial services provided by Citibank, N.A. and its affiliates in the United States and its territories. Terms, conditions and fees for accounts, products, programs and services are subject to change. Not all accounts, products, and services as well as pricing described here are available in all jurisdictions or to all customers. Your country of citizenship, domicile, or residence, if other than the United States, may have laws, rules, and regulations that govern or affect your application for and use of our accounts, products and services, including laws and regulations regarding taxes, exchange and/or capital controls that you are responsible for following.</p><p>The products, account packages, promotional offers and services described in this website may not apply to customers of <a href=\"http://www.citibank.com/citigoldprivateclient/homepage/content/en/index.html\">Citigold Private Client</a>, <a href=\"http://www.citigoldinternational.citi.com/citigoldinternational/homepage/content/english/index.htm\">Citigold International</a>, <a href=\"http://www.citibank.com/ipb-global/homepage/newsite/content/english/index.htm\">International Personal Banking</a> or <a href=\"http://www.citibank.com/us/geb/index.htm\">Global Executive Banking</a>.</p>"
+		},
+		"subFooter": {
+			"show": true,
+			"showVersion": true,
+			"images": {
+				"show": true,
+				"fdic": {
+					"url": "https://online.citi.com/GFC/branding/responsivebranding/img/memberfdic.png"
+				},
+				"equalHousing": {
+					"url": "https://online.citi.com/GFC/branding/responsivebranding/img/home.png"
+				}
+			}
+		}
+	}
+  }
+}

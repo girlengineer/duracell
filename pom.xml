@@ -1,0 +1,100 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.citi.144564.cbol.ag</groupId>
+  <artifactId>duracell</artifactId>
+  <version>1.SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+<distributionManagement>
+  <snapshotRepository>
+    <id>ansmodules</id>
+    <url>http://sd-5e1d-64bd.nam.nsroot.net:8081/nexus/content/repositories/ansmodules</url>
+  </snapshotRepository>
+</distributionManagement>
+
+
+
+  	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.apache.maven.plugins</groupId>
+										<artifactId>maven-dependency-plugin</artifactId>
+										<versionRange>[1.0.0,)</versionRange>
+										<goals>
+											<goal>compress</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<plugins>
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+					<id>Webpackage:Phase-1</id>
+						<phase>package</phase>
+						<configuration>	
+						<target>
+								<copy todir="${project.build.directory}/duracell">
+    								<fileset dir="src/main/duracell/build/node_modules"/>
+  							    </copy>
+								<zip destfile="${project.build.directory}/duracell.zip"
+									basedir="${project.build.directory}/duracell">
+								</zip>						
+						</target>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution> 
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+						<id>Webpackage:Phase-2</id>
+						<phase>package</phase>
+						<goals>
+							<goal>attach-artifact</goal>
+						</goals>
+						<configuration>
+							<artifacts>
+								<artifact>
+									<file>${project.build.directory}/duracell.zip</file>
+									<type>zip</type>
+								</artifact>
+							</artifacts>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+					
+		</plugins>
+	</build>
+</project>
